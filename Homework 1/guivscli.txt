@@ -1,0 +1,4 @@
+A Graphical User Interface (GUI) and a Command-Line Interface (CLI) are two different ways people interact with computers. A GUI is easier to use right away because it is visual. Users can click, drag, and navigate through menus and icons, making it very beginner friendly. Because of this, GUIs are commonly used for everyday tasks.
+A CLI works differently because it is text-based and requires users to type commands. While it can be confusing at first, it becomes much faster once you become familiar with the process. A downside of GUIs is that they can be slower for repetitive tasks, while a CLI allows users to complete those tasks more efficiently.
+Another difference is how feedback is given. In a GUI, feedback usually comes from pop-ups, menus, or visual alerts. In a CLI, feedback is shown through text output in the terminal. Overall, GUIs are easier to learn, but CLIs are faster and more powerful once learned.
+
