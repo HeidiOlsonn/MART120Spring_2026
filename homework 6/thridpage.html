@@ -1,24 +1,55 @@
 <html>
 
+
+
+
+
+
 <head>
-  <title>Class Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</head>
 
 
+
+
+
+
+
+  
+<script>
+function needemail(){
+
+
+var first = document.getElementById("fName");
+var last = document.getElementById("lName");
+
+if(last.value == "" || first.value == ""){
+
+alert("please enter your first and last name");
+
+if(last.value == ""){
+last.style.borderColor="red" 
+
+last.focus();
+}
+if(first.value == ""){
+first.style.borderColor="red"
+first.focus();
+}
+}
+}
+
+</script>
 <body>
 
     <H1> Contact Us</H1>
     <form action="index.html" type="POST"></form>
     First Name:<input type="text" id="fName"><br>
     LAST Name:<input type="text" id="lName"><br>
-    <button type="button" class="btn btn-danger">Submit</button>
+    
     <input type="Checkbox" name="moutain" value="moutain">Do you agree
     <H2><a href="index.html">Home page</a></H2>
     <H3><a href="secondpage.html">second page</a></H3>
+
+    <button type="button" class="btn btn-danger" onclick="needemail()">Submit</button>
 
 </body>
 
